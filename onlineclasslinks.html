@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Class Links</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="shortcut icon" href="favicon.png" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <a id="header-title" href ="index.html">My Blog</a>
+        <ul id="header-nav">
+            <li><a href="onlineclasslinks.html">Online Class Links</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:mallidipraveenkumarreddy@gmail.com">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+    <div class="post-container">
+        <div class="post">
+            <div class="post-author">
+                <img src="logo.png" height="100" width="100">
+                <span>Praveen</span>
+            </div>
+            <p class="post-date">14-07-20</p>
+            <h3 class="post-title">Online Class Links</h3>
+	    <p>Please click on respective section</p>
+	    <div class="btn-group">
+		<button class="button" onclick="sectionb()">Section B</button>
+  		<button class="button" onclick="sectionc()">Section C</button>
+	    </div>
+	    <p style="clear:both"></p><br>
+            <p id="post-content"></p>
+        </div>
+    </div>
+</div>
+<script>
+	var d = new Date();
+        var n = d.getDay();
+        var subject;
+    function sectionb() {
+        if (n===1) {
+            subject = "<p>Physics - <a href=\"https://us04web.zoom.us/j/8504958189?pwd=ZjZiK2o1c3dGOGJsN1owQ3VIbDR1UT09\">Click Here</a></p>" +
+                "<p>Geography - <a href=\"https://us04web.zoom.us/j/9689783440?pwd=c2NVWVhJUWxYTGJBaGIxalZMRm5tUT09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===2) {
+            subject = "<p>Computers - <a href=\"https://us04web.zoom.us/j/2569979021?pwd=RmVrazc3ZENFcVBmN3lieFpHdzljdz09\">Click Here</a></p>" +
+                "<p>Commercial - <a href=\"https://us04web.zoom.us/j/5047755994?pwd=iqcSSNmZ7nlosWYO0k2ZHDWidCGVv9veJg\">Click Here</a></p>" +
+                "<p>English - <a href=\"https://us04web.zoom.us/j/6129264151?pwd=SnJ2dmpCaGV5S3JpcDhtSklRdSt4Zz09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===3) {
+            subject = "<p>Biology - <a href=\"https://us04web.zoom.us/j/5804213659?pwd=htgQSLuZYbgLC4cA-MWsEn-c7pBGog\">Click Here</a></p>" +
+                "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===4) {
+            subject = "<p>History & Civic - <a href=\"https://us04web.zoom.us/j/8385725267?pwd=clJtTThMMTRvVUpMNm40dWRDR0N4Zz09\">Click Here</a></p>" +
+                "<p>Biology - <a href=\"https://us04web.zoom.us/j/5804213659?pwd=htgQSLuZYbgLC4cA-MWsEn-c7pBGog\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===5) {
+            subject = "<p>Telugu - <a href=\"https://us04web.zoom.us/j/7118065634?pwd=aG1jRXFNRUQrWWhvVmdTQlJETlJrUT09\">Click Here</a></p>" +
+                "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===6) {
+            subject = "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Physics - <a href=\"https://us04web.zoom.us/j/8504958189?pwd=ZjZiK2o1c3dGOGJsN1owQ3VIbDR1UT09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===0) {
+            subject = "<p>Physics - <a href=\"https://us04web.zoom.us/j/8504958189?pwd=ZjZiK2o1c3dGOGJsN1owQ3VIbDR1UT09\">Click Here</a></p>" +
+                "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Biology - <a href=\"https://us04web.zoom.us/j/5804213659?pwd=htgQSLuZYbgLC4cA-MWsEn-c7pBGog\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>" +
+                "<p>History & Civic - <a href=\"https://us04web.zoom.us/j/8385725267?pwd=clJtTThMMTRvVUpMNm40dWRDR0N4Zz09\">Click Here</a></p>" +
+                "<p>Geography - <a href=\"https://us04web.zoom.us/j/9689783440?pwd=c2NVWVhJUWxYTGJBaGIxalZMRm5tUT09\">Click Here</a></p>" +
+                "<p>English - <a href=\"https://us04web.zoom.us/j/6129264151?pwd=SnJ2dmpCaGV5S3JpcDhtSklRdSt4Zz09\">Click Here</a></p>" +
+                "<p>Telugu - <a href=\"https://us04web.zoom.us/j/7118065634?pwd=aG1jRXFNRUQrWWhvVmdTQlJETlJrUT09\">Click Here</a></p>" +
+                "<p>Computers - <a href=\"https://us04web.zoom.us/j/2569979021?pwd=RmVrazc3ZENFcVBmN3lieFpHdzljdz09\">Click Here</a></p>" +
+                "<p>Commercial - <a href=\"https://us04web.zoom.us/j/5047755994?pwd=iqcSSNmZ7nlosWYO0k2ZHDWidCGVv9veJg\">Click Here</a></p>";
+        }
+		document.getElementById("post-content").innerHTML = subject;
+	}
+	function sectionc() {
+        if (n===1) {
+            subject = "<p>Computers - <a href=\"https://us04web.zoom.us/j/2569979021?pwd=RmVrazc3ZENFcVBmN3lieFpHdzljdz09\">Click Here</a></p>" +
+                "<p>Commercial - <a href=\"https://us04web.zoom.us/j/5047755994?pwd=iqcSSNmZ7nlosWYO0k2ZHDWidCGVv9veJg\">Click Here</a></p>" +
+                "<p>Physics - <a href=\"https://us04web.zoom.us/j/8504958189?pwd=ZjZiK2o1c3dGOGJsN1owQ3VIbDR1UT09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===2) {
+            subject = "<p>History & Civic - <a href=\"https://us04web.zoom.us/j/8385725267?pwd=clJtTThMMTRvVUpMNm40dWRDR0N4Zz09\">Click Here</a></p>" +
+                "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===3) {
+            subject = "<p>Telugu - <a href=\"https://us04web.zoom.us/j/7118065634?pwd=aG1jRXFNRUQrWWhvVmdTQlJETlJrUT09\">Click Here</a></p>" +
+                "<p>Geography - <a href=\"https://us04web.zoom.us/j/9689783440?pwd=c2NVWVhJUWxYTGJBaGIxalZMRm5tUT09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===4) {
+            subject = "<p>Biology - <a href=\"https://us04web.zoom.us/j/5804213659?pwd=htgQSLuZYbgLC4cA-MWsEn-c7pBGog\">Click Here</a></p>" +
+                "<p>English - <a href=\"https://us04web.zoom.us/j/6129264151?pwd=SnJ2dmpCaGV5S3JpcDhtSklRdSt4Zz09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===5) {
+            subject = "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Biology - <a href=\"https://us04web.zoom.us/j/5804213659?pwd=htgQSLuZYbgLC4cA-MWsEn-c7pBGog\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===6) {
+            subject = "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Physics - <a href=\"https://us04web.zoom.us/j/8504958189?pwd=ZjZiK2o1c3dGOGJsN1owQ3VIbDR1UT09\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>";
+        }
+        if (n===0) {
+            subject = "<p>Physics - <a href=\"https://us04web.zoom.us/j/8504958189?pwd=ZjZiK2o1c3dGOGJsN1owQ3VIbDR1UT09\">Click Here</a></p>" +
+                "<p>Chemistry - <a href=\"https://us04web.zoom.us/j/6927860287?pwd=a3RSd3JxeW1udjB4T1ZGMVFDeGp6dz09\">Click Here</a></p>" +
+                "<p>Biology - <a href=\"https://us04web.zoom.us/j/5804213659?pwd=htgQSLuZYbgLC4cA-MWsEn-c7pBGog\">Click Here</a></p>" +
+                "<p>Mathematics - <a href=\"https://us04web.zoom.us/j/7878275370?pwd=RzE5Q0ZhVzVUU0JxeTFhM0g4SDQ3Zz09\">Click Here</a></p>" +
+                "<p>History & Civic - <a href=\"https://us04web.zoom.us/j/8385725267?pwd=clJtTThMMTRvVUpMNm40dWRDR0N4Zz09\">Click Here</a></p>" +
+                "<p>Geography - <a href=\"https://us04web.zoom.us/j/9689783440?pwd=c2NVWVhJUWxYTGJBaGIxalZMRm5tUT09\">Click Here</a></p>" +
+                "<p>English - <a href=\"https://us04web.zoom.us/j/6129264151?pwd=SnJ2dmpCaGV5S3JpcDhtSklRdSt4Zz09\">Click Here</a></p>" +
+                "<p>Telugu - <a href=\"https://us04web.zoom.us/j/7118065634?pwd=aG1jRXFNRUQrWWhvVmdTQlJETlJrUT09\">Click Here</a></p>" +
+                "<p>Computers - <a href=\"https://us04web.zoom.us/j/2569979021?pwd=RmVrazc3ZENFcVBmN3lieFpHdzljdz09\">Click Here</a></p>" +
+                "<p>Commercial - <a href=\"https://us04web.zoom.us/j/5047755994?pwd=iqcSSNmZ7nlosWYO0k2ZHDWidCGVv9veJg\">Click Here</a></p>";
+        }
+        	document.getElementById("post-content").innerHTML = subject;
+    	}
+</script>
+<div id="footer1">
+    <div class="container">
+        <div class="column">
+            <h4>My links</h4>
+            <p>
+                <a href="https://instagram.com/the_untracable_hacker/">Instagram</a>
+                <br>
+                <a href="https://www.facebook.com/the.untracable.hacker">Facebook</a>
+            </p>
+        </div>
+        <div class="column-story">
+            <h4>My Story</h4>
+            <p>Hi there! I'm an aspiring web developer.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
